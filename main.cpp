@@ -6,7 +6,7 @@ int main(){
     char carattere;
     cin >> carattere;
 
-    if (funzione(carattere)){
+    if (funzione(carattere)==true){
         cout << conversione(carattere);
     }
     else cout << "errore";
